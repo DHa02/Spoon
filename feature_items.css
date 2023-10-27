@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Karma';
+}
+.logoimg {
+  z-index: 3;
+  padding-top: 0px;
+}
+
+.logo {
+  z-index: 5;
+  color: darkred;
+  font-size: 33px;
+  font-family: fantasy;
+  letter-spacing: 2px;
+}
+.logo:hover {
+  color: blanchedalmond;
+}
+.logo span {
+  z-index: 5;
+  color: rgb(115, 115, 115);
+  font-size: 33px;
+  font-family: fantasy;
+  letter-spacing: 2px;
+}
+.logo span:hover {
+  color: darkred;
+}
+.nav-bar {
+  z-index: 4;
+  background-color: rgba(26, 13, 0, 0.9);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+}
+.nav-bar ul li {
+  /* width: 120px; */
+  padding: 10px 30px;
+  /* text-align: center; */
+  position: relative;
+}
+.nav-bar ul li a {
+  font-size: 26px;
+  font-family: fantasy;
+  color: brown;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.nav-bar ul li a:hover {
+  color: blanchedalmond;
+  font-size: 30px;
+}
+
+.fas {
+  float: right;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+/* dropdown menu style */
+.dropdown-menu {
+  display: none;
+}
+.nav-bar ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: rgba(26, 13, 0.5, 0.7);
+}
+.nav-bar ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+.nav-bar ul li:hover .dropdown-menu ul li {
+  width: 150px;
+  padding: 10px;
+
+}
+
+
+#content .products-list {
+    margin-top: 50px;
+}
+
+#content .individual-item {
+    float: left; 
+    text-align: center;
+    width: calc(100% / 3);
+}
+
+#content .individual-item-img {
+    width: 300px;
+    margin-top: 15px;
+    border-radius: 4px; 
+}
+#content .individual-item-img:hover{
+    transform: scale(1.2);
+}
+#content h2 p{
+    color: black;
+}
+
+
